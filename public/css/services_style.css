@@ -1,0 +1,49 @@
+.service {
+    width: 100%;
+    box-shadow: 0 0 35px 5px rgba(0, 0, 0, 0.25);
+    background: var(--gray-2);
+    background-image: url("../img/service-bg1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 23px;
+    padding: 45px 80px;
+}
+
+.service:nth-child(3) {
+    background-image: url("../img/service-bg2.png");
+}
+
+.service:nth-child(4) {
+    background-image: url("../img/service-bg3.png");
+}
+
+.services-page {
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+}
+
+.service-information {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    width: 462px;
+}
+
+.service-title {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.service-title span {
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 0.17em;
+    color: white;
+}
+
+.line {
+    width: 100%;
+    border-bottom: 1px solid var(--light-gray-1);
+}

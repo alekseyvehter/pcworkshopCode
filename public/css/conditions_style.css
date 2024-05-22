@@ -1,0 +1,55 @@
+.condition-block .title-block {
+    margin-bottom: 65px;
+}
+
+.condition {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 35px 5px rgba(0, 0, 0, 0.25);
+    background: var(--gray-2);
+    border-radius: 23px;
+    padding: 43px 80px;
+    background-image: url("../img/payment-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.condition-block:nth-child(2) .condition {
+    background-image: url("../img/delivery-bg.png");
+    background-size: contain;
+}
+
+.condition-information {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: max-content;
+}
+
+.condition-information:nth-child(1) {
+    margin-bottom: 40px;
+}
+
+.condition-title {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.condition-title span {
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 0.17em;
+    color: white;
+}
+
+.condition ul {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 250%;
+    color: #fff;
+}
+

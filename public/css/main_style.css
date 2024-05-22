@@ -1,0 +1,329 @@
+/*Main-page Style*/
+
+/*Slogan Block*/
+
+.slogan-block {
+    width: 100%;
+    height: 630px;
+    border-radius: 23px;
+    background-image: url("../img/slogan-bg.png");
+
+}
+
+.slogan-information {
+    padding: 70px 0 70px 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 470px;
+}
+
+.slogan-information span {
+    color: var(--green);
+    font-family: "Michroma", sans-serif;
+}
+
+.slogan-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 12.5px 2px rgba(3, 163, 0, 0.5);
+    background: var(--gray-1);
+    width: 250px;
+    height: 55px;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 50px;
+    letter-spacing: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.slogan-button:hover {
+    color: white;
+    background: var(--light-gray-2);
+}
+
+/*About Block*/
+
+.about-block {
+    display: flex;
+    width: 100%;
+}
+
+.about-information {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 530px;
+    padding-right: 24px;
+}
+
+/*Advantages Block*/
+
+.advantages-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.advantage {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0 20px 0;
+    width: 305px;
+    height: 257px;
+    border-radius: 23px;
+    box-shadow: 0 0 35px 5px rgba(0, 0, 0, 0.25);
+    background: rgb(39, 39, 39);
+}
+
+.advantages-page .title {
+    margin-bottom: 65px;
+}
+
+/*Best-pc Block*/
+
+.best-pc-block .title {
+    margin-bottom: 65px;
+}
+
+.multiple-card-slider .card {
+    width: 362px;
+    height: 672px;
+    margin: 0 0.5em;
+    border-radius: 23px;
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.20);
+    background: rgb(39, 39, 39);
+}
+
+.multiple-card-slider .carousel-control-prev,
+.multiple-card-slider .carousel-control-next {
+    background: none;
+    width: 25px;
+    height: 80px;
+    top: 50%;
+    z-index: 0;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+    left: 7px !important;
+}
+
+.carousel-control-next {
+    right: 5px!important;
+}
+
+.carousel-inner {
+    padding-left: 50px;
+}
+
+.card-body {
+    padding: 30px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title-card {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: white;
+}
+
+.specification {
+    display: flex;
+    gap: 30px;
+}
+
+.specification span {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+}
+
+.card-price {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+.card-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-button .detailed-btn {
+    width: 140px;
+    height: 44px;
+    border-radius: 8px;
+    box-shadow: 0 0 12px 2px rgba(155, 155, 155, 0.5);
+    background: rgb(34, 34, 34);
+    border: none;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.card-button .order-btn {
+    width: 140px;
+    height: 44px;
+    border-radius: 8px;
+    box-shadow: 0 0 12px 2px rgba(3, 163, 0, 0.5);
+    background: rgb(34, 34, 34);
+    font-size: 14px;
+    border: none;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.img-pc {
+    border-top-right-radius: 23px;
+    border-top-left-radius: 23px;
+    height: 270px;
+}
+
+.card-button .detailed-btn:hover, .card-button .order-btn:hover {
+    background: var(--light-gray-2);
+}
+
+.modal-body-order {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 5px 40px 40px 40px!important;
+}
+
+#modalComputerName {
+    font-size: 20px;
+}
+
+.modal-body-order strong {
+    color: var(--green);
+    font-weight: 300!important;
+}
+
+.modal-body-order div {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.title-modal div {
+    font-size: 20px;
+}
+
+/*Feedback Block*/
+
+.feedback-block .title-block {
+    margin-bottom: 65px;
+}
+
+.feedback-form {
+    height: 824px;
+    width: 100%;
+    background-color: #272727;
+    background-image: url("../img/feedback-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 23px;
+    padding: 65px 100px;
+}
+
+.title-form {
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 50px;
+    letter-spacing: 3px;
+}
+
+
+.custom-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 445px;
+}
+
+.custom-form input, textarea {
+    padding: 13px 15px;
+    border: 1px solid var(--light-gray-1)!important;
+    border-radius: 5px;
+    background: var(--light-gray-2)!important;
+    color: white!important;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+.custom-form input:focus::placeholder, textarea:focus::placeholder{
+    color: transparent!important;
+}
+
+.custom-form input:focus, textarea:focus{
+    outline: 1px solid var(--green)!important;
+    box-shadow: none!important;
+
+}
+
+.custom-form input::placeholder, textarea::placeholder{
+    color: #989898!important;
+    font-size: 14px!important;
+    font-weight: 300!important;
+    letter-spacing: 3px!important;
+}
+
+.custom-form .agree {
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.agree a {
+    text-decoration: none;
+}
+
+.agree a:hover {
+    color: var(--green);
+    text-decoration: underline;
+}
+
+.custom-form button {
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 12px 2px rgba(3, 163, 0, 0.5);
+    background: rgb(34, 34, 34);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 0;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.custom-form button:hover {
+    background: var(--light-gray-2);
+}
+

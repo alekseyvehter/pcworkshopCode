@@ -1,0 +1,71 @@
+.contacts-block .title-block, .branches-block .title-block {
+    margin-bottom: 65px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 0 0 35px 5px rgba(0, 0, 0, 0.25);
+    background: var(--gray-2);
+    border-radius: 23px;
+    padding: 60px 80px;
+    gap: 50px;
+    background-image: url("../img/contact-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-information, .contact-list {
+    width: 420px;
+}
+
+.branches {
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+}
+
+.branch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+}
+
+.branch h2 {
+    font-weight: 300;
+    font-size: 36px;
+    letter-spacing: 0.17em;
+    color: white;
+    border-bottom: 1px solid var(--green);
+    width: max-content;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.branch-information {
+    min-width: 320px;
+}
+
+.branch-map {
+    width: 100%;
+    filter: grayscale(1) brightness(70%);
+}
+
+.branch iframe {
+    border-radius: 23px;
+    width: 100%;
+    height: 400px;
+}
+
+.branch script {
+    width: 50%;
+    filter: grayscale(1) brightness(70%);
+}

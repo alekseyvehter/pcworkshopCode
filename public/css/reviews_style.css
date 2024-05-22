@@ -1,0 +1,121 @@
+.reviews-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.review-btn-block {
+    display: flex;
+    align-items: center;
+}
+
+.review-btn-block .line {
+    border-bottom: 1px solid var(--green);
+}
+
+.reviews-block .review-btn {
+    margin: 65px 40px;
+    box-shadow: 0 0 12px 2px rgba(3, 163, 0, 0.5);
+    background: var(--gray-1);
+    border-radius: 8px;
+    border: none;
+    width: 220px;
+    min-width: 220px;
+    height: 44px;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 0.19em;
+    color: white;
+}
+
+.reviews-block .review-btn:hover {
+    background: var(--light-gray-2);
+}
+
+.reviews {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(350px, 1fr));
+    grid-gap: 50px;
+}
+
+.review {
+    box-shadow: 0 0 35px 5px rgba(0, 0, 0, 0.25);
+    background: var(--gray-2);
+    border-radius: 23px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.review-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review-name {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.review-name p {
+    line-height: 30px;
+    font-weight: 300;
+    font-size: 36px;
+    color: white;
+}
+
+.review-name span {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #626262;
+}
+
+.review-grade {
+    width: max-content;
+    height: 70px;
+    display: flex;
+    align-items: baseline;
+}
+
+.review-description {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.grade-max {
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+}
+
+.grade-base {
+    font-weight: 300;
+    font-size: 40px;
+    color: white;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/star-reviews.png");
+    background-position: center;
+    padding-top: 5px;
+}
+
+.read-more,
+.read-less {
+    background: none;
+    text-align: left;
+    padding: 0;
+    border: none;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.19em;
+    color: var(--green);
+}
+
+

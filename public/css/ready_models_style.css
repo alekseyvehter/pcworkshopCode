@@ -1,0 +1,35 @@
+/*Gamer-models Block*/
+
+.models-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.models-block .title {
+    margin-bottom: 65px;
+}
+
+.models-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(362px, 1fr));
+    justify-items: center;
+    row-gap: 75px;
+}
+
+.model-card {
+    width: 362px;
+    height: 672px;
+    border-radius: 23px;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.20);
+    background: rgb(39, 39, 39);
+    display: flex;
+    flex-direction: column;
+}
+
+.model-card-body {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
